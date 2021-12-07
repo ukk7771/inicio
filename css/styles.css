@@ -16,6 +16,7 @@ body{
     top: 0px;
     height: 106px;
     position: sticky;
+    z-index: 1;
 }
 .mainBackground{
     background-color: #ededed;
@@ -27,6 +28,10 @@ body{
 }
 .sz-nav{
     height: 91px;
+}
+.i-po{
+    margin-left: 77px;
+    margin-right: 77px;
 }
 
 .pd-m{
@@ -47,6 +52,21 @@ body{
     margin-right: 0px;
     margin-left: 0px;
     margin-bottom: 20px;
+}
+.mg-0{
+    margin:0px;
+}
+.hg-c{
+    width: auto;
+    margin-right: 0px;
+}
+.hg-c1{
+    height: 100%;
+}
+.nav-cu{
+    width: auto;
+    height: auto;
+    margin-right: 10px;
 }
 .mg-1{
     padding: 60px;
@@ -107,7 +127,7 @@ body{
     font-size: 22px;
 }
 .mg-ntc-ind{
-    margin-top: 20px;
+    margin-top: 10px;
     line-height: 21px;
     font-weight: 600px;
 }
@@ -126,4 +146,21 @@ body{
 .img-c-2{
     width: auto;
     height: 220px;
+}
+.ul-in{
+    z-index: 0;
+}
+.f-background{
+    margin-top: 5px;
+    background-image: linear-gradient(#131313,#252525);
+    background-size: 100%;
+    height: 100px;
+}
+.f-pa{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.d-cu{
+    width: 100%;
+    height: 100%;
 }
