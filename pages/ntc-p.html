@@ -11,68 +11,60 @@
     <title>noticia</title>
 </head>
 <body>
-<!--header and navbar-->
+<!--heade and navbar-->
 <header class="navBackground">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container flex-row align-items-end sz-nav">
-            <div class="container col-5 d-flex align-items-center i-po">
-                <div class="justify-content-">
-                    <a class="navbar-brand" href="../index.html">
-                        <img src="../assets/img/logo-2_Mesa de trabajo 1.png" alt="logo" width="190">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-c2">
+        <div class="container-fluid flex-row d-flex pd-cm">
+            <div class="container d-flex pepe">
+                <a class="navbar-brand mg-nm" href="../index.html">
+                    <img class="" src="../assets/img/icono-p.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse j-1" id="navbarNav">
+                    <ul class="navbar-nav ul-c">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="butoon" data-bs-toggle="dropdown" aria-expanded="false">GPU</a>
+                            <ul class="dropdown-menu bg-c3" aria-labelledby="navbarDropdown" >
+                                <li><a class="dropdown-item text-cu" href="../pages/NVIDIA.html">NVIDIA</a></li> 
+                                <li><a class="dropdown-item text-cu" href="../pages/AMD.html">AMD</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="butoon" data-bs-toggle="dropdown" aria-expanded="false">CPU</a>
+                            <ul class="dropdown-menu bg-c3" aria-labelledby="navbarDropdown" >
+                                <li><a class="dropdown-item text-cu" href="../pages/Intel.html">Intel</a></li> 
+                                <li><a class="dropdown-item text-cu" href="../pages/AMD-p.html">AMD</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="../pages/Juegos.html">Juegos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="../pages/Varios.html">Varios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="../pages/Reviews.html">Reviews</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="butoon" data-bs-toggle="dropdown" aria-expanded="false">Redes</a>
+                            <ul class="dropdown-menu bg-c3" aria-labelledby="navbardropdown">
+                                <li><a class="dropdown-item text-cu" href="https://twitter.com/freeCodeCamp?s=20" target="_blank">Twitter</a></li>
+                                <li><a class="dropdown-item text-cu" href="https://www.youtube.com/c/Freecodecamp" target="_blank">Youtube</a></li>
+                                <li><a class="dropdown-item text-cu" href="https://www.linkedin.com/school/free-code-camp"  target="_blank">linkedin</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="https://www.patreon.com/join/4797564/signup?client_id=PGqD1Y437poaGFek8YDwa4gTdUPZV72lkjzwozVNMPzzRhR7D4fQq0i85InlZCK9&state=None&response_type=code%24&amt=5.0&redirect_uri=https%3A%2F%2Fwww.patreon.com%2Foauth2%2Fbecome-patron%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.freecodecamp.org%252Fnews%252Fthank-you-for-donating%252F%26client_id%3DPGqD1Y437poaGFek8YDwa4gTdUPZV72lkjzwozVNMPzzRhR7D4fQq0i85InlZCK9%26min_cents%3D500%26campaign_id%3D4797564%26response_type%3Dcode%2524%26state%3DNone%26scope%3Didentity%2Bidentity%255Bemail%255D&scope=identity+identity%5Bemail%5D" target="_blank">Donate</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-            <div class="container hg-c1 row align-items-end justify-content-center">
-            <div class="container d-flex mg-0 col-4 nav-cu">
-                <div class="container hg-c">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent ">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link text-light dropdown-toggle " href="#" id="navbarDropdown" role="butoon" data-bs-toggle="dropdown" aria-expanded="false">GPU</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
-                                    <li><a class="dropdown-item" href="NVIDIA.html">NVIDIA</a></li> 
-                                    <li><a class="dropdown-item" href="AMD.html">AMD</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="butoon" data-bs-toggle="dropdown" aria-expanded="false">CPU</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
-                                    <li><a class="dropdown-item" href="Intel.html">Intel</a></li> 
-                                    <li><a class="dropdown-item" href="AMD-p.html">AMD</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="Juegos.html">Juegos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="Varios.html">Varios</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="   Reviews.html">Reviews</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="butoon" data-bs-toggle="dropdown" aria-expanded="false">Redes</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbardropdown">
-                                    <li><a class="dropdown-item" href="https://twitter.com/freeCodeCamp?s=20" target="_blank">Twitter</a></li>
-                                    <li><a class="dropdown-item" href="https://www.youtube.com/c/Freecodecamp" target="_blank">Youtube</a></li>
-                                    <li><a class="dropdown-item" href="https://www.linkedin.com/school/free-code-camp"  target="_blank">linkedin</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="https://www.patreon.com/join/4797564/signup?client_id=PGqD1Y437poaGFek8YDwa4gTdUPZV72lkjzwozVNMPzzRhR7D4fQq0i85InlZCK9&state=None&response_type=code%24&amt=5.0&redirect_uri=https%3A%2F%2Fwww.patreon.com%2Foauth2%2Fbecome-patron%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.freecodecamp.org%252Fnews%252Fthank-you-for-donating%252F%26client_id%3DPGqD1Y437poaGFek8YDwa4gTdUPZV72lkjzwozVNMPzzRhR7D4fQq0i85InlZCK9%26min_cents%3D500%26campaign_id%3D4797564%26response_type%3Dcode%2524%26state%3DNone%26scope%3Didentity%2Bidentity%255Bemail%255D&scope=identity+identity%5Bemail%5D" target="_blank">Donate</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
             </div>
         </div>
     </nav>
 </header>
-<div class="container  pd-m">
+<!---->
     <div class="container mg-1">
         <div class="container pd-c2">
             <div class="container pd-c1 bg-c1">
@@ -139,7 +131,6 @@
             </div>
         </div>
     </div>
-</div>
 <footer class="f-background d-flex">
     <div class="container f-pa">
         <div class="container d-cu row align-items-center">
