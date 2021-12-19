@@ -271,14 +271,14 @@ body{
     }
 
     .ft-a2{
-        font-size: 15px;
+        font-size: 16px;
         line-height: .2;
     }
 
     ul{
         li{
             .h6{
-                font-size: 10px;
+                font-size: 12px;
             }
         }
     }
@@ -306,6 +306,22 @@ body{
     }
     .mg-nm{
         margin-right: 458px;
+    }
+    .sub-cnt-ind{
+        margin-left: 18px;
+    }
+    .f-c1{
+        font-size: 14px;
+    }
+    .ti-c1{
+        font-size: 15px;
+    }
+    .ft-h3{
+        font-weight: 700;
+        margin-bottom: 14px;
+    }
+    .tit-ntc-1{
+        font-size: 35px;
     }
 }
 
@@ -360,7 +376,19 @@ body{
             }
         }
     }
-
+    .f-c1{
+        font-size: 14px;
+    }
+    .ti-c1{
+        font-size: 15px;
+    }
+    .ft-h3{
+        font-weight: 700;
+        margin-bottom: 14px;
+    }
+    .tit-ntc-1{
+        font-size: 30px;
+    }
     .mg-nm{
         margin-right: 275px;
     }
@@ -417,6 +445,19 @@ body{
             }
         }
     }
+    .f-c1{
+        font-size: 14px;
+    }
+    .ti-c1{
+        font-size: 15px;
+    }
+    .ft-h3{
+        font-weight: 700;
+        margin-bottom: 14px;
+    }
+    .tit-ntc-1{
+        font-size: 30px;
+    }
 }
 @media(max-width: 425px){
     body{
@@ -470,5 +511,18 @@ body{
                 }
             }
         }
+    }
+    .f-c1{
+        font-size: 14px;
+    }
+    .ti-c1{
+        font-size: 15px;
+    }
+    .ft-h3{
+        font-weight: 700;
+        margin-bottom: 14px;
+    }
+    .tit-ntc-1{
+        font-size: 30px;
     }
 }

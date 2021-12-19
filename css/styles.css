@@ -299,12 +299,12 @@ body {
   }
 
   .ft-a2 {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 0.2;
   }
 
   ul li .h6 {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .mg-1 {
@@ -328,6 +328,27 @@ body {
 
   .mg-nm {
     margin-right: 458px;
+  }
+
+  .sub-cnt-ind {
+    margin-left: 18px;
+  }
+
+  .f-c1 {
+    font-size: 14px;
+  }
+
+  .ti-c1 {
+    font-size: 15px;
+  }
+
+  .ft-h3 {
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+
+  .tit-ntc-1 {
+    font-size: 35px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -378,6 +399,23 @@ body {
 
   header nav div .d-flex {
     display: block !important;
+  }
+
+  .f-c1 {
+    font-size: 14px;
+  }
+
+  .ti-c1 {
+    font-size: 15px;
+  }
+
+  .ft-h3 {
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+
+  .tit-ntc-1 {
+    font-size: 30px;
   }
 
   .mg-nm {
@@ -435,6 +473,23 @@ body {
   header nav div .d-flex {
     display: block !important;
   }
+
+  .f-c1 {
+    font-size: 14px;
+  }
+
+  .ti-c1 {
+    font-size: 15px;
+  }
+
+  .ft-h3 {
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+
+  .tit-ntc-1 {
+    font-size: 30px;
+  }
 }
 @media (max-width: 425px) {
   body {
@@ -488,6 +543,23 @@ body {
 
   header nav div .d-flex {
     display: block !important;
+  }
+
+  .f-c1 {
+    font-size: 14px;
+  }
+
+  .ti-c1 {
+    font-size: 15px;
+  }
+
+  .ft-h3 {
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+
+  .tit-ntc-1 {
+    font-size: 30px;
   }
 }
 
