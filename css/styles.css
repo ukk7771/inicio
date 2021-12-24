@@ -8,9 +8,6 @@
 body {
   overflow-x: hidden;
   right: 0px 400px 0px 0px;
-  /*
-  background-image: url(background-body.jpg);
-  background-size: 100%; */
   background-color: #555555;
 }
 
@@ -107,7 +104,6 @@ body {
 
 .ntc-ind {
   margin-top: 24px;
-  padding: 0px;
   background-color: transparent;
   border: 0px solid;
   border-radius: 15px;
@@ -123,11 +119,10 @@ body {
 
 .sub-cnt-ind {
   margin-left: 50px;
-  padding: 0px;
   width: auto;
 }
 
-.pd-c0 {
+.pd-c0, .ntc-ind, .sub-cnt-ind {
   padding: 0px;
 }
 
@@ -178,8 +173,8 @@ body {
 }
 
 .f-background {
-  margin-top: 5px;
   background-image: linear-gradient(#131313, #252525);
+  margin-top: 5px;
   background-size: 100%;
   height: 100px;
 }
